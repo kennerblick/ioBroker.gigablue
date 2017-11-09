@@ -1,0 +1,27 @@
+{
+    "common": {
+        "name":                     "gigablue",
+        "version":                  "0.0.2",
+        "title":                    "Gigablue Adapter",
+        "desc":                     "Gigablue adapter",
+	"readme":                   "https://github.com/kennerblick/iobroker.gigablue/blob/master/README.md",
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "gigablue.png",
+        "extIcon":                  "https://raw.githubusercontent.com/kennerblick/iobroker.gigablue/master/admin/gigablue.png",
+        "loglevel":                 "info",
+        "nondeletable":             true,
+        "type":                     "common adapters"
+    },
+    "native": {
+        "IPAddress": "192.168.0.1",
+        "Port": "80",
+        "Username": "root",
+        "Password": "gigablue",
+	"webif": true,
+        "PollingInterval": 5000
+    },
+    "objects": [
+
+    ]
+}
